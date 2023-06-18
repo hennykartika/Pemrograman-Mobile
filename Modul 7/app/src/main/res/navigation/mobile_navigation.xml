@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="@string/title_makanan"
+    app:startDestination="@id/navigation_makanan">
+
+    <fragment
+        android:id="@+id/navigation_makanan"
+        android:name="com.example.uts_mobile.ui.makanan.MakananFragment"
+        android:label="@string/title_makanan"
+        tools:layout="@layout/fragment_makanan" />
+
+    <fragment
+        android:id="@+id/navigation_minuman"
+        android:name="com.example.uts_mobile.ui.minuman.MinumanFragment"
+        android:label="@string/title_minuman"
+        tools:layout="@layout/fragment_minuman" />
+
+</navigation>
